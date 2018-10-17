@@ -9,9 +9,7 @@ function playSound() {
 }
 
 function removeTransition(e) {
-  if(e.propertyName == 'animation') {
-    this.classList.remove('playing');
-  }
+  this.classList.remove('playing');
 }
 
 function addChickenListener() {
